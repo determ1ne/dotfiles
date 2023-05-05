@@ -1,0 +1,104 @@
+map <SPACE> <Nop>
+let mapleader=" "
+
+set easymotion
+set surround
+"" cs, ds, ys, S
+set multiple-cursors
+"" <A-n>, <A-x>, <A-p>
+set commentary
+"" gcc, gc+[motion]
+set NERDTree
+"" set incsearch
+set exchange
+set textobj-indent
+"" ii: indent level
+"" ai: plus one line above
+"" aI: and below
+set ideajoin
+set which-key
+let g:WhichKey_ShowVimActions = "false"
+let g:WhichKey_FontFamily = "Fira Code"
+set notimeout
+
+"" variables:
+let linenumbermode="abs"
+
+"" Very quick actions
+"" # Go: g
+let g:WhichKeyDesc_go = "<leader>g ★Go"
+"" ## Go back & forward
+map gb <Action>(Back)
+map gf <Action>(Forward)
+"" ## Go to declaration
+map gd <Action>(GotoDeclaration)
+"" ## Go to implementation
+map gi <Action>(GotoImplementation)
+"" # Show doc
+map K <Action>(QuickJavaDoc)
+"" # EasyMotion
+"" ## backward
+map mF <Plug>(easymotion-s)
+map mf <Plug>(easymotion-f)
+"" # NERDTree
+map <c-t> :NERDTree<CR>
+"" # SearchEverywhere
+let g:WhichKeyDesc_search = "<leader><leader> SearchEverywhere"
+unmap <leader><leader>
+map <leader><leader> <Action>(SearchEverywhere)
+map <leader>s <Action>(Switcher)
+
+"" Which-Key actions
+"" e
+let g:WhichKeyDesc_explorer = "<leader>e Explorer"
+map <leader>e :NERDTree<CR>
+"" L: IdeaVim
+let g:WhichKeyDesc_ideavim = "<leader>L ★IdeaVim"
+let g:WhichKeyDesc_ideavim_reload = "<leader>Lr Reload .ideavimrc"
+map <leader>Lr :source ~/.ideavimrc<CR>
+let g:WhichKeyDesc_ideavim_lnm = "<leader>Ln Toggle Relative Line Number"
+map <leader>Ln :se rnu!<CR>
+"" l: LSP
+let g:WhichKeyDesc_lsp = "<leader>l ★LSP"
+let g:WhichKeyDesc_lsp_reformat = "<leader>lf Format"
+map <leader>lf <Action>(ReformatCode)
+let g:WhichKeyDesc_lsp_nexterror = "<leader>lj Next Error"
+map <leader>lj <Action>(GotoNextError)
+let g:WhichKeyDesc_lsp_previouserror = "<leader>lk Previous Error"
+map <leader>lk <Action>(GotoPreviousError)
+let g:WhichKeyDesc_lsp_quickimplementations = "<leader>li Show implementation"
+map <leader>li <Action>(QuickImplementations)
+let g:WhichKeyDesc_lsp_rename = "<leader>lr Rename"
+map <leader>li <Action>(RenameElement)
+let g:WhichKeyDesc_lsp_breakpoint = "<leader>lb Toggle Breakpoint"
+map <leader>lb <Action>(ToggleLineBreakpoint)
+"" b: Buffer
+let g:WhichKeyDesc_buffer = "<leader>b ★Buffer"
+let g:WhichKeyDesc_buffer_close = "<leader>bc Close"
+map <leader>bc :q<CR>
+let g:WhichKeyDesc_buffer_find = "<leader>bf Find"
+map <leader>bf <Action>(Find)
+let g:WhichKeyDesc_buffer_replace = "<leader>br Replace"
+map <leader>br <Action>(Replace)
+let g:WhichKeyDesc_buffer_switcher = "<leader>bj Switcher"
+map <leader>bj <Action>(Switcher)
+"" t: Task
+let g:WhichKeyDesc_task = "<leader>t ★Task"
+let g:WhichKeyDesc_task_run = "<leader>tr Run"
+map <leader>tr <Action>(Run)
+let g:WhichKeyDesc_task_debug = "<leader>td Debug"
+map <leader>tr <Action>(Debug)
+
+"" Hide actions in which-key
+let g:WhichKeyDesc_hide0 = "<A-n> "
+let g:WhichKeyDesc_hide1 = "<C-S-Semicolon> "
+let g:WhichKeyDesc_hide2 = "<C-Semicolon> "
+let g:WhichKeyDesc_hide3 = "<C-t> "
+let g:WhichKeyDesc_hide4 = "<Space> "
+let g:WhichKeyDesc_hide5 = "K"
+let g:WhichKeyDesc_hide6 = "c "
+let g:WhichKeyDesc_hide7 = "d "
+let g:WhichKeyDesc_hide8 = "g "
+let g:WhichKeyDesc_hide9 = "m "
+let g:WhichKeyDesc_hide10 = "y "
+
