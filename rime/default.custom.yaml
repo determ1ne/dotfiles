@@ -1,0 +1,30 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "2019-06-22"
+  rime_version: 1.5.3
+patch:
+  schema_list:
+    # - {schema: flypy}
+    # - {schema: flypyplus}
+    - {schema: flypy_reloaded}
+    - {schema: flypy_plus_reloaded}
+    - {schema: flypy_dz_reloaded}
+    # - {schema: kaomoji}
+    # - {schema: xhup}
+    # - {schema: double_pinyin_flypy}
+  ascii_composer/switch_key:
+    Shift_L: commit_code
+    Shift_R: commit_code
+  switcher:
+    caption: 〔方案選單〕
+    hotkeys:
+      - Control+grave
+      - Control+Shift+grave
+      - F4
+    save_options:
+      - simplification
+    fold_options: true
+    abbreviate_options: true
+    option_list_separator: '／'

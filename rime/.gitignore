@@ -1,0 +1,5 @@
+build/
+luna_pinyin.userdb/
+tmp/
+.DS_Store
+

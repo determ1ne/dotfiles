@@ -1,0 +1,80 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: flypy_dz_reloaded
+  name: 小鶴音形單字-重製
+  version: "2020.1"
+  author:
+    - 輸入方案 by 何海峰 <flypy@qq.com>
+    - 方案定製 by Azuk 443 <me@azuk.top>
+  description: |
+    基於飛揚版擴充單字碼表製作，適用於反查。
+  dependencies:
+    - pinyin_simp
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+
+speller:
+  alphabet: '`zyxwvutsrqponmlkjihgfedcba'
+  delimiter: " '"
+  max_code_length: 4
+  auto_select: true
+  auto_select_pattern: ^;.$|^\w{4}$
+  auto_select_unique_candidate: true
+  auto_clear: max_length
+
+translator:
+  dictionary: flypy_dz_reloaded
+
+reverse_lookup:
+  dictionary: stroke
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+    # so those who have customized '/' for direct commit won't be affected by
+    # this change.
+    punct: ""
+    reverse_lookup: "`[a-z]*'?$"

@@ -1,0 +1,130 @@
+# coding: utf-8
+# 小鹤音形“置顶”用户词库
+# 该文件以UTF-8编码保存
+# 编码各字段以制表符（Tab）分隔
+# 编码格式：字词Tab编码Tab权重（权重决定重码的次序，权重大则居前，无重码则无需权重）
+# 
+#    === 强调一下 === 
+# 
+#   词条和编码之间的不是空格，而是Tab符，如果你不知道，就复制下面编码中的空白处
+#   或者按住键盘 G 键，切换到功能键盘，使用上面的Tab键
+# 
+#    ================
+# 
+# 如两个用户词重码，则需加权重排序，权重大者居前，如下：
+#
+# 同文	tw	90
+# 提问	tw	30
+#
+# 如和系统词重码且要放中间，如下设置：
+#
+# 技术	jiuu	100
+# 奇数	jiuu	90
+# 既成事实	jiuu	80
+#    ================
+# 虽然文本码表编辑较为方便，但不适合导入大量条目
+# 本词库重码时置顶。
+
+# 电气自定义置顶词语
+
+二极管	ejgr
+示波器	ubqi
+仿真	fhvf
+元件	yrjm
+伏安	fuan
+稳压	wfya
+正向	vgxl
+晶体	jkti
+电流源	dlyr
+电压源	dyyr
+恒压源	hyyr
+恒流源	hlyr
+电压表	dybn
+电流表	dlbn
+万用表	wybn
+方均根	fjgf
+峰值	fgvi
+线性	xmxk
+支路	vilu
+含源	hjyr
+入端	rudr
+电导	dmdc
+直流	vilq
+接线	jpxm
+谐振	xpvf
+电感	dmgj
+过渡	godu
+混叠	hydp
+瞬时	uyui
+振荡	vfdh
+
+# 计算机类置顶
+
+异步	yibu
+发行	faxk
+接口	jpkz
+
+# 其他常用置顶
+
+置顶	vidk
+绘制	hvvi
+定理	dkli
+中心	vsxb
+带宽	ddkr
+正弦	vgxm
+余弦	yuxm
+正切	vgqp
+余切	yuqp
+正割	vgge
+余割	yuge
+基于	jiyu
+各个	gege
+程度	igdu
+成为	igww
+起到	qidc
+无比	wubi
+简介	jmjp
+初始	iuui
+背景	bwjk
+独自	duzi
+躲进	dojb
+伤害	uhhd
+整个	vgge
+伫立	vuli
+事实	uiui
+之下	vixx
+之上	viuh
+以便	yibm
+离子	lizi
+
+
+
+# 快速符号
+：	;
+；	;
+；	;;
+‰	;q
+？	;w
+（	;e
+）	;r
+@	;t
+·	;y
+——	;p
+！	;a
+……	;s
+、	;d
+《	;g
+“	;z
+→	;x
+”	;c
+》	;v
+%	;b
+‘	;n
+’	;m
+
+
+#用户置顶词库，此行后开始添加，编码格式见上。切换方案或部署后生效
+# no comment
+
+
+

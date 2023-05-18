@@ -1,0 +1,75 @@
+# coding: utf-8
+# 小鹤音形用户词库（默认和系统词条重码时居后）
+# 该文件以UTF-8编码保存
+# 编码各字段以制表符（Tab）分隔
+# 编码格式：字词Tab编码Tab权重（权重决定重码的次序，权重大则居前，无重码则无需权重）
+# 
+#    === 强调一下 === 
+# 
+#   词条和编码之间的不是空格，而是Tab符，如果你不知道，就复制下面编码中的空白处
+#   或者按住键盘 G 键，切换到功能键盘，使用上面的Tab键
+# 
+#    ================
+# 
+# 如两个用户词重码，则需加权重排序，权重大者居前，如下：
+#
+# 同文	tw	90
+# 提问	tw	30
+#
+#    ================
+# 虽然文本码表编辑较为方便，但不适合导入大量条目
+
+#用户词库，下一行后开始添加。切换方案或部署后生效
+# no comment
+
+# 电气自定义词语
+
+峰峰值	ffvi
+内阻	nwzu
+计算	jisr
+阻抗	zukh
+幅值	fuvi
+幅频	fupb
+进制	jbvi
+译码	yima
+计数	jiuu
+集成	jiig
+触发	iufa
+电平	dmpk
+开环	kdhr
+电枢	dmuu
+滤波	lvbo
+转矩	vrju
+电机	dmji
+磁链	cilm
+暂态	zjtd
+绕组	rczu
+电势	dmui
+阻尼	zuni
+电抗	dmkh
+励磁	lici
+标幺	bnyc
+标么	bnyc
+相位	xlww
+
+# 其他常用自定义词语
+
+字符串	zfir
+及其	jiqi
+截距	jpju
+负荷	fuhe
+高效	gcxn
+传感	irgj
+简单	jmdj
+插值	iavi
+拟合	nihe
+哪里	nali
+主人	vurf
+琴声	qbug
+统一	tsyi
+权力	qrli
+事件	uijm
+联系	lmxi
+量程	llig
+人物	rfwu
+
