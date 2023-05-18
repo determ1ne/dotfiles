@@ -8,9 +8,9 @@ patch:
   schema_list:
     # - {schema: flypy}
     # - {schema: flypyplus}
-    - {schema: flypy_reloaded}
+    - {schema: flypy}
     - {schema: flypy_plus_reloaded}
-    - {schema: flypy_dz_reloaded}
+    # - {schema: flypy_dz_reloaded}
     # - {schema: kaomoji}
     # - {schema: xhup}
     # - {schema: double_pinyin_flypy}

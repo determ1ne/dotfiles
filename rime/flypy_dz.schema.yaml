@@ -2,12 +2,12 @@
 # encoding: utf-8
 
 schema:
-  schema_id: flypy_dz_reloaded
-  name: 小鶴音形單字-重製
-  version: "2020.1"
+  schema_id: flypy_dz
+  name: 小鹤音形单字
+  version: "2023.05"
   author:
-    - 輸入方案 by 何海峰 <flypy@qq.com>
-    - 方案定製 by Azuk 443 <me@azuk.top>
+    - 输入方案 by 何海峰 <flypy@qq.com>
+    - 方案修改 by Azuk 443 <me@azuk.top>
   description: |
     基於飛揚版擴充單字碼表製作，適用於反查。
   dependencies:
@@ -53,7 +53,7 @@ speller:
   auto_clear: max_length
 
 translator:
-  dictionary: flypy_dz_reloaded
+  dictionary: flypy_dz
 
 reverse_lookup:
   dictionary: stroke

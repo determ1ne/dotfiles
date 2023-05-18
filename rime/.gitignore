@@ -1,5 +1,7 @@
 build/
 luna_pinyin.userdb/
 tmp/
+installation.yaml
 .DS_Store
+
 
