@@ -3,10 +3,12 @@
 
 ---
 name: flypy
-version: "2020.1"
+version: "2023.05"
 sort: original
 use_preset_vocabulary: false
 max_phrase_length: 14
+import_tables:
+  - flypy.extended
 encoder:
   # exclude_patterns:
     # - '^z.*$'
@@ -21,6 +23,7 @@ encoder:
 ...
 
 啊	a
+按	a
 阿	aa
 阿爸	aab
 阿爸	aaba
@@ -778,6 +781,7 @@ AA制	aavi
 爱咋咋地	azz
 爱咋咋地	azzd
 不	b
+吧	b
 把	ba
 鲅	baa
 鲃	baab
@@ -4349,6 +4353,7 @@ AA制	aavi
 不自在	bzz
 不自在	bzzd
 才	c
+此	c
 擦	ca
 擦边	cab
 擦边	cabm
@@ -5821,6 +5826,7 @@ AA制	aavi
 凑足	czz
 凑足	czzu
 的	d
+打	d
 大	da
 答案	daa
 大碍	daai
@@ -9321,8 +9327,8 @@ AA制	aavi
 陡增	dzzg
 豆子	dzzi
 斗嘴	dzzv
-刀子嘴豆腐心	dzzx
 二	e
+嗯	e
 恩爱	ea
 而不	eb
 二八定律	ebd
@@ -9854,6 +9860,7 @@ Excel	exc
 恶作剧	ezj
 恶作剧	ezju
 非	f
+发	f
 法	fa
 发暗	faa
 发暗	faan
@@ -11984,6 +11991,7 @@ Excel	exc
 否则	fzz
 否则	fzze
 个	g
+管	g
 嘎	ga
 夹	gaa
 戛	gaag
@@ -14999,6 +15007,7 @@ GDP	gdp
 故作姿态	gzzt
 狗贼	gzzw
 和	h
+化	h
 哈	ha
 哈达	had
 哈达	hada
@@ -21044,6 +21053,7 @@ IP地址	ipdv
 臭嘴	izzv
 抽走	izzz
 就	j
+见	j
 骄傲	ja
 桀骜不驯	jab
 桀骜不驯	jabx
@@ -21915,7 +21925,7 @@ IP地址	ipdv
 吉	jiuk
 赍	jiur
 技术	jiuu
-既成事实	jiuu
+计数	jiuu
 积水	jiuv
 屐	jiuy
 棘手	jiuz
@@ -21981,8 +21991,8 @@ IP地址	ipdv
 机缘	jiyr
 急用	jiys
 畿	jiyt
+基于	jiyu
 机遇	jiyu
-觊觎	jiyu
 既有	jiyz
 迹	jiz
 鸡杂	jiza
@@ -49636,7 +49646,7 @@ PPT	ppt
 值得	vide
 质地	vidi
 滞	vidj
-制定	vidk
+置顶	vidk
 指定	vidk
 觯	vidl
 指点	vidm
@@ -63919,3 +63929,84 @@ Word	word
 啧啧啧	zzze
 自作自受	zzzu
 走走	zzzz
+块	k
+立	l
+嘛	m
+哪	n
+期	q
+入	r
+随	s
+它	t
+十	u
+之	v
+位	w
+性	x
+子	z
+宝	bc
+笨	bf
+甭	bg
+逼	bi
+备	bw
+猜	cd
+达	da
+道	dc
+东	ds
+逗	dz
+份	ff
+疯	fg
+复	fu
+搞	gc
+钙	gd
+哥	ge
+官	gr
+故	gu
+华	hx
+壶	hu
+扯	ie
+程	ig
+臭	iz
+今	jb
+极	ji
+贱	jm
+居	ju
+佳	jx
+抠	kz
+溜	lq
+骂	ma
+美	mw
+浓	ns
+弃	qi
+缺	qt
+惹	re
+忍	rf
+扔	rg
+寺	si
+淘	tc
+替	ti
+舔	tm
+通	ts
+退	tv
+省	ug
+室	ui
+守	uz
+招	vc
+症	vg
+战	vj
+终	vs
+文	wf
+忘	wh
+玩	wj
+未	ww
+心	xb
+型	xk
+凶	xs
+隐	yb
+野	ye
+杨	yh
+严	yj
+园	yr
+友	yz
+遭	zc
+揍	zz
+坐	zo
+堆	dv
