@@ -46,7 +46,6 @@
 峰值	fgvi
 线性	xmxk
 支路	vilu
-含源	hjyr
 入端	rudr
 电导	dmdc
 直流	vilq
@@ -66,7 +65,6 @@
 
 # 其他常用置顶
 
-置顶	vidk
 绘制	hvvi
 定理	dkli
 中心	vsxb
@@ -75,9 +73,7 @@
 余弦	yuxm
 正切	vgqp
 余切	yuqp
-正割	vgge
 余割	yuge
-基于	jiyu
 各个	gege
 程度	igdu
 成为	igww
@@ -89,11 +85,8 @@
 独自	duzi
 躲进	dojb
 伤害	uhhd
-整个	vgge
 伫立	vuli
 事实	uiui
-之下	vixx
-之上	viuh
 以便	yibm
 离子	lizi
 

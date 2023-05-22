@@ -7,10 +7,10 @@
 name: flypy_dz
 version: "2023.05"
 sort: original
-description: 小鹤音形反查辅助方案
 ...
 
 啊	a
+按	a
 阿	aa
 阿	`a
 阿	a`
@@ -1531,6 +1531,7 @@ description: 小鹤音形反查辅助方案
 遨	`o``
 遨	a```
 不	b
+吧	b
 把	ba
 把	`a
 把	b`
@@ -2402,6 +2403,9 @@ description: 小鹤音形反查辅助方案
 报	bc
 报	`c
 报	b`
+宝	bc
+宝	`c
+宝	b`
 鲍	bca
 鲍	`ca
 鲍	b`a
@@ -3026,6 +3030,9 @@ description: 小鹤音形反查辅助方案
 本	bf
 本	`f
 本	b`
+笨	bf
+笨	`f
+笨	b`
 本	bfa
 本	`fa
 本	b`a
@@ -3219,6 +3226,9 @@ description: 小鹤音形反查辅助方案
 蹦	bg
 蹦	`g
 蹦	b`
+甭	bg
+甭	`g
+甭	b`
 甭	bgb
 甭	`gb
 甭	b`b
@@ -3857,6 +3867,9 @@ description: 小鹤音形反查辅助方案
 比	bi
 比	`i
 比	b`
+逼	bi
+逼	`i
+逼	b`
 鲾	bia
 鲾	`ia
 鲾	b`a
@@ -7311,6 +7324,9 @@ description: 小鹤音形反查辅助方案
 被	bw
 被	`w
 被	b`
+备	bw
+备	`w
+备	b`
 蓓	bwc
 蓓	`wc
 蓓	b`c
@@ -7785,6 +7801,7 @@ description: 小鹤音形反查辅助方案
 悖	`w`
 悖	b``
 才	c
+此	c
 擦	ca
 擦	`a
 擦	c`
@@ -8081,6 +8098,9 @@ description: 小鹤音形反查辅助方案
 菜	cd
 菜	`d
 菜	c`
+猜	cd
+猜	`d
+猜	c`
 才	cda
 才	`da
 才	c`a
@@ -10946,9 +10966,13 @@ description: 小鹤音形反查辅助方案
 腠	`z``
 腠	c```
 的	d
+打	d
 大	da
 大	`a
 大	d`
+达	da
+达	`a
+达	d`
 瘩	dab
 瘩	`ab
 瘩	d`b
@@ -11267,6 +11291,9 @@ description: 小鹤音形反查辅助方案
 到	dc
 到	`c
 到	d`
+道	dc
+道	`c
+道	d`
 鱽	dca
 鱽	`ca
 鱽	d`a
@@ -16273,6 +16300,9 @@ description: 小鹤音形反查辅助方案
 动	ds
 动	`s
 动	d`
+东	ds
+东	`s
+东	d`
 东	dsa
 东	`sa
 东	d`a
@@ -17044,6 +17074,9 @@ description: 小鹤音形反查辅助方案
 对	dv
 对	`v
 对	d`
+堆	dv
+堆	`v
+堆	d`
 兑	dvb
 兑	`vb
 兑	d`b
@@ -17598,6 +17631,9 @@ description: 小鹤音形反查辅助方案
 都	dz
 都	`z
 都	d`
+逗	dz
+逗	`z
+逗	d`
 豆	dza
 豆	`za
 豆	d`a
@@ -17871,6 +17907,7 @@ description: 小鹤音形反查辅助方案
 逗	`z``
 逗	d```
 二	e
+嗯	e
 额	ee
 额	`e
 额	e`
@@ -18938,6 +18975,7 @@ description: 小鹤音形反查辅助方案
 十	`u
 十	e`
 非	f
+发	f
 法	fa
 法	`a
 法	f`
@@ -19113,6 +19151,9 @@ description: 小鹤音形反查辅助方案
 分	ff
 分	`f
 分	f`
+份	ff
+份	`f
+份	f`
 鲼	ffa
 鲼	`fa
 鲼	f`a
@@ -19513,6 +19554,9 @@ description: 小鹤音形反查辅助方案
 风	fg
 风	`g
 风	f`
+疯	fg
+疯	`g
+疯	f`
 丰	fga
 丰	`ga
 丰	f`a
@@ -20685,6 +20729,9 @@ description: 小鹤音形反查辅助方案
 副	fu
 副	`u
 副	f`
+复	fu
+复	`u
+复	f`
 夫	fua
 夫	`ua
 夫	f`a
@@ -22648,6 +22695,7 @@ description: 小鹤音形反查辅助方案
 缶	`z``
 缶	f```
 个	g
+管	g
 嘎	ga
 嘎	`a
 嘎	g`
@@ -22927,6 +22975,9 @@ description: 小鹤音形反查辅助方案
 高	gc
 高	`c
 高	g`
+搞	gc
+搞	`c
+搞	g`
 皋	gcb
 皋	`cb
 皋	g`b
@@ -23261,6 +23312,9 @@ description: 小鹤音形反查辅助方案
 该	gd
 该	`d
 该	g`
+钙	gd
+钙	`d
+钙	g`
 丐	gda
 丐	`da
 丐	g`a
@@ -23536,6 +23590,9 @@ description: 小鹤音形反查辅助方案
 各	ge
 各	`e
 各	g`
+哥	ge
+哥	`e
+哥	g`
 歌	gea
 歌	`ea
 歌	g`a
@@ -26140,6 +26197,9 @@ description: 小鹤音形反查辅助方案
 关	gr
 关	`r
 关	g`
+官	gr
+官	`r
+官	g`
 鳏	gra
 鳏	`ra
 鳏	g`a
@@ -26949,6 +27009,9 @@ description: 小鹤音形反查辅助方案
 古	gu
 古	`u
 古	g`
+故	gu
+故	`u
+故	g`
 鲴	gua
 鲴	`ua
 鲴	g`a
@@ -29155,6 +29218,7 @@ description: 小鹤音形反查辅助方案
 遘	`z``
 遘	g```
 和	h
+化	h
 哈	ha
 哈	`a
 哈	h`
@@ -33710,6 +33774,9 @@ description: 小鹤音形反查辅助方案
 户	hu
 户	`u
 户	h`
+壶	hu
+壶	`u
+壶	h`
 互	hua
 互	`ua
 互	h`a
@@ -35259,6 +35326,9 @@ description: 小鹤音形反查辅助方案
 话	hx
 话	`x
 话	h`
+华	hx
+华	`x
+华	h`
 画	hxa
 画	`xa
 画	h`a
@@ -36969,6 +37039,9 @@ description: 小鹤音形反查辅助方案
 车	ie
 车	`e
 车	i`
+扯	ie
+扯	`e
+扯	i`
 车	iea
 车	`ea
 车	i`a
@@ -37629,6 +37702,9 @@ description: 小鹤音形反查辅助方案
 成	ig
 成	`g
 成	i`
+程	ig
+程	`g
+程	i`
 宬	igbi
 宬	`gbi
 宬	i`bi
@@ -42049,6 +42125,9 @@ description: 小鹤音形反查辅助方案
 抽	iz
 抽	`z
 抽	i`
+臭	iz
+臭	`z
+臭	i`
 瘳	izb
 瘳	`zb
 瘳	i`b
@@ -42411,9 +42490,13 @@ description: 小鹤音形反查辅助方案
 臭	`z``
 臭	i```
 就	j
+见	j
 进	jb
 进	`b
 进	j`
+今	jb
+今	`b
+今	j`
 荩	jbc
 荩	`bc
 荩	j`c
@@ -43007,6 +43090,9 @@ description: 小鹤音形反查辅助方案
 几	ji
 几	`i
 几	j`
+极	ji
+极	`i
+极	j`
 击	jia
 击	`ia
 击	j`a
@@ -45731,6 +45817,9 @@ description: 小鹤音形反查辅助方案
 间	jm
 间	`m
 间	j`
+贱	jm
+贱	`m
+贱	j`
 柬	jma
 柬	`ma
 柬	j`a
@@ -49859,6 +49948,9 @@ description: 小鹤音形反查辅助方案
 据	ju
 据	`u
 据	j`
+居	ju
+居	`u
+居	j`
 车	jua
 车	`ua
 车	j`a
@@ -50808,6 +50900,9 @@ description: 小鹤音形反查辅助方案
 加	jx
 加	`x
 加	j`
+佳	jx
+佳	`x
+佳	j`
 夹	jxa
 夹	`xa
 夹	j`a
@@ -51800,6 +51895,7 @@ description: 小鹤音形反查辅助方案
 郡	`y``
 郡	j```
 可	k
+块	k
 卡	ka
 卡	`a
 卡	k`
@@ -56004,6 +56100,9 @@ description: 小鹤音形反查辅助方案
 口	kz
 口	`z
 口	k`
+抠	kz
+抠	`z
+抠	k`
 寇	kzb
 寇	`zb
 寇	k`b
@@ -56189,6 +56288,7 @@ description: 小鹤音形反查辅助方案
 筘	`z``
 筘	k```
 了	l
+立	l
 拉	la
 拉	`a
 拉	l`
@@ -62699,6 +62799,9 @@ description: 小鹤音形反查辅助方案
 刘	lq
 刘	`q
 刘	l`
+溜	lq
+溜	`q
+溜	l`
 瘤	lqb
 瘤	`qb
 瘤	l`b
@@ -66005,9 +66108,13 @@ description: 小鹤音形反查辅助方案
 露	`z``
 露	l```
 没	m
+嘛	m
 吗	ma
 吗	`a
 吗	m`
+骂	ma
+骂	`a
+骂	m`
 抹	maf
 抹	`af
 抹	m`f
@@ -71489,6 +71596,9 @@ description: 小鹤音形反查辅助方案
 每	mw
 每	`w
 每	m`
+美	mw
+美	`w
+美	m`
 寐	mwb
 寐	`wb
 寐	m`b
@@ -72142,6 +72252,7 @@ description: 小鹤音形反查辅助方案
 谋	`z``
 谋	m```
 你	n
+哪	n
 那	na
 那	`a
 那	n`
@@ -75531,6 +75642,9 @@ description: 小鹤音形反查辅助方案
 弄	ns
 弄	`s
 弄	n`
+浓	ns
+浓	`s
+浓	n`
 农	nsd
 农	`sd
 农	n`d
@@ -81719,6 +81833,7 @@ description: 小鹤音形反查辅助方案
 裒	`z``
 裒	p```
 去	q
+期	q
 亲	qb
 亲	`b
 亲	q`
@@ -82138,6 +82253,9 @@ description: 小鹤音形反查辅助方案
 其	qi
 其	`i
 其	q`
+弃	qi
+弃	`i
+弃	q`
 七	qia
 七	`ia
 七	q`a
@@ -87013,6 +87131,9 @@ description: 小鹤音形反查辅助方案
 却	qt
 却	`t
 却	q`
+缺	qt
+缺	`t
+缺	q`
 瘸	qtb
 瘸	`tb
 瘸	q`b
@@ -88189,6 +88310,7 @@ description: 小鹤音形反查辅助方案
 逡	`y``
 逡	q```
 人	r
+入	r
 绕	rc
 绕	`c
 绕	r`
@@ -88327,6 +88449,9 @@ description: 小鹤音形反查辅助方案
 热	re
 热	`e
 热	r`
+惹	re
+惹	`e
+惹	r`
 惹	rec
 惹	`ec
 惹	r`c
@@ -88396,6 +88521,9 @@ description: 小鹤音形反查辅助方案
 任	rf
 任	`f
 任	r`
+忍	rf
+忍	`f
+忍	r`
 荏	rfc
 荏	`fc
 荏	r`c
@@ -88708,6 +88836,9 @@ description: 小鹤音形反查辅助方案
 仍	rg
 仍	`g
 仍	r`
+扔	rg
+扔	`g
+扔	r`
 扔	rgf
 扔	`gf
 扔	r`f
@@ -90478,6 +90609,7 @@ description: 小鹤音形反查辅助方案
 蹂	`z``
 蹂	r```
 三	s
+随	s
 撒	sa
 撒	`a
 撒	s`
@@ -91361,6 +91493,9 @@ description: 小鹤音形反查辅助方案
 四	si
 四	`i
 四	s`
+寺	si
+寺	`i
+寺	s`
 肆	sia
 肆	`ia
 肆	s`a
@@ -94291,6 +94426,7 @@ description: 小鹤音形反查辅助方案
 艘	`z``
 艘	s```
 他	t
+它	t
 她	ta
 她	`a
 她	t`
@@ -94709,6 +94845,9 @@ description: 小鹤音形反查辅助方案
 套	tc
 套	`c
 套	t`
+淘	tc
+淘	`c
+淘	t`
 萄	tcc
 萄	`cc
 萄	t`c
@@ -96222,6 +96361,9 @@ description: 小鹤音形反查辅助方案
 体	ti
 体	`i
 体	t`
+替	ti
+替	`i
+替	t`
 鳀	tia
 鳀	`ia
 鳀	t`a
@@ -97751,6 +97893,9 @@ description: 小鹤音形反查辅助方案
 天	tm
 天	`m
 天	t`
+舔	tm
+舔	`m
+舔	t`
 天	tmad
 天	`mad
 天	t`ad
@@ -99234,6 +99379,9 @@ description: 小鹤音形反查辅助方案
 同	ts
 同	`s
 同	t`
+通	ts
+通	`s
+通	t`
 鲖	tsa
 鲖	`sa
 鲖	t`a
@@ -100056,6 +100204,9 @@ description: 小鹤音形反查辅助方案
 推	tv
 推	`v
 推	t`
+退	tv
+退	`v
+退	t`
 𬯎	tve
 𬯎	`ve
 𬯎	t`e
@@ -100523,6 +100674,7 @@ description: 小鹤音形反查辅助方案
 透	`z``
 透	t```
 是	u
+十	u
 啥	ua
 啥	`a
 啥	u`
@@ -102227,6 +102379,9 @@ description: 小鹤音形反查辅助方案
 生	ug
 生	`g
 生	u`
+省	ug
+省	`g
+省	u`
 渑	ugd
 渑	`gd
 渑	u`d
@@ -102688,6 +102843,9 @@ description: 小鹤音形反查辅助方案
 时	ui
 时	`i
 时	u`
+室	ui
+室	`i
+室	u`
 事	uia
 事	`ia
 事	u`a
@@ -105978,6 +106136,9 @@ description: 小鹤音形反查辅助方案
 受	uz
 受	`z
 受	u`
+守	uz
+守	`z
+守	u`
 首	uzb
 首	`zb
 首	u`b
@@ -106200,6 +106361,7 @@ description: 小鹤音形反查辅助方案
 熟	`z`
 熟	u``
 这	v
+之	v
 扎	va
 扎	`a
 扎	v`
@@ -106760,6 +106922,9 @@ description: 小鹤音形反查辅助方案
 找	vc
 找	`c
 找	v`
+招	vc
+招	`c
+招	v`
 𬶐	vca
 𬶐	`ca
 𬶐	v`a
@@ -108472,6 +108637,9 @@ description: 小鹤音形反查辅助方案
 正	vg
 正	`g
 正	v`
+症	vg
+症	`g
+症	v`
 正	vga
 正	`ga
 正	v`a
@@ -110528,6 +110696,9 @@ description: 小鹤音形反查辅助方案
 占	vj
 占	`j
 占	v`
+战	vj
+战	`j
+战	v`
 鳣	vja
 鳣	`ja
 鳣	v`a
@@ -112041,6 +112212,9 @@ description: 小鹤音形反查辅助方案
 中	vs
 中	`s
 中	v`
+终	vs
+终	`s
+终	v`
 冢	vsb
 冢	`sb
 冢	v`b
@@ -114151,6 +114325,7 @@ description: 小鹤音形反查辅助方案
 胄	`z``
 胄	v```
 我	w
+位	w
 挖	wa
 挖	`a
 挖	w`
@@ -114506,6 +114681,9 @@ description: 小鹤音形反查辅助方案
 问	wf
 问	`f
 问	w`
+文	wf
+文	`f
+文	w`
 鳁	wfa
 鳁	`fa
 鳁	w`a
@@ -115052,6 +115230,9 @@ description: 小鹤音形反查辅助方案
 王	wh
 王	`h
 王	w`
+忘	wh
+忘	`h
+忘	w`
 王	wha
 王	`ha
 王	w`a
@@ -115328,6 +115509,9 @@ description: 小鹤音形反查辅助方案
 完	wj
 完	`j
 完	w`
+玩	wj
+玩	`j
+玩	w`
 万	wja
 万	`ja
 万	w`a
@@ -117207,6 +117391,9 @@ description: 小鹤音形反查辅助方案
 为	ww
 为	`w
 为	w`
+未	ww
+未	`w
+未	w`
 未	wwa
 未	`wa
 未	w`a
@@ -118246,9 +118433,13 @@ description: 小鹤音形反查辅助方案
 违	`w``
 违	w```
 小	x
+性	x
 新	xb
 新	`b
 新	x`
+心	xb
+心	`b
+心	x`
 芯	xbc
 芯	`bc
 芯	x`c
@@ -119826,6 +120017,9 @@ description: 小鹤音形反查辅助方案
 行	xk
 行	`k
 行	x`
+型	xk
+型	`k
+型	x`
 荇	xkc
 荇	`kc
 荇	x`c
@@ -124128,6 +124322,9 @@ description: 小鹤音形反查辅助方案
 熊	xs
 熊	`s
 熊	x`
+凶	xs
+凶	`s
+凶	x`
 匈	xsb
 匈	`sb
 匈	x`b
@@ -126745,6 +126942,9 @@ description: 小鹤音形反查辅助方案
 因	yb
 因	`b
 因	y`
+隐	yb
+隐	`b
+隐	y`
 䲟	ybae
 䲟	`bae
 䲟	y`ae
@@ -128186,6 +128386,9 @@ description: 小鹤音形反查辅助方案
 也	ye
 也	`e
 也	y`
+野	ye
+野	`e
+野	y`
 页	yea
 页	`ea
 页	y`a
@@ -128721,6 +128924,9 @@ description: 小鹤音形反查辅助方案
 样	yh
 样	`h
 样	y`
+杨	yh
+杨	`h
+杨	y`
 痒	yhb
 痒	`hb
 痒	y`b
@@ -130816,6 +131022,9 @@ description: 小鹤音形反查辅助方案
 眼	yj
 眼	`j
 眼	y`
+严	yj
+严	`j
+严	y`
 宴	yjb
 宴	`jb
 宴	y`b
@@ -132459,6 +132668,9 @@ description: 小鹤音形反查辅助方案
 元	yr
 元	`r
 元	y`
+园	yr
+园	`r
+园	y`
 冤	yrb
 冤	`rb
 冤	y`b
@@ -135716,6 +135928,9 @@ description: 小鹤音形反查辅助方案
 有	yz
 有	`z
 有	y`
+友	yz
+友	`z
+友	y`
 鱿	yza
 鱿	`za
 鱿	y`a
@@ -136465,6 +136680,7 @@ description: 小鹤音形反查辅助方案
 诱	`z``
 诱	y```
 在	z
+子	z
 咋	za
 咋	`a
 咋	z`
@@ -136626,6 +136842,9 @@ description: 小鹤音形反查辅助方案
 早	zc
 早	`c
 早	z`
+遭	zc
+遭	`c
+遭	z`
 枣	zca
 枣	`ca
 枣	z`a
@@ -138742,6 +138961,9 @@ description: 小鹤音形反查辅助方案
 做	zo
 做	`o
 做	z`
+坐	zo
+坐	`o
+坐	z`
 阼	zoe
 阼	`oe
 阼	z`e
@@ -140028,6 +140250,9 @@ description: 小鹤音形反查辅助方案
 走	zz
 走	`z
 走	z`
+揍	zz
+揍	`z
+揍	z`
 鲰	zza
 鲰	`za
 鲰	z`a

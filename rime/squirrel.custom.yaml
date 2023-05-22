@@ -4,7 +4,7 @@ patch:
   preset_color_schemes:
     macos_light:
       name: "macOS Light"
-      horizontal: true                             # true横排，false竖排
+      horizontal: false                            # true横排，false竖排
       candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
@@ -28,7 +28,7 @@ patch:
       translucency: true
     macos_dark:
       name: "macOS Dark"
-      horizontal: true             # true横排，false竖排
+      horizontal: false            # true横排，false竖排
       candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角

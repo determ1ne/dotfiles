@@ -32,7 +32,6 @@
 幅频	fupb
 进制	jbvi
 译码	yima
-计数	jiuu
 集成	jiig
 触发	iufa
 电平	dmpk

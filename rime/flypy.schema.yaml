@@ -23,7 +23,6 @@ switches:
   - name: full_shape
     states: [ 半角, 全角 ]
   - name: simplification
-    # reset: 1
     states: [ 汉字, 漢字 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
@@ -55,10 +54,16 @@ engine:
     - simplifier
     - uniquifier
 
+ascii_composer:
+  good_old_caps_key: true
+  switch_key:
+    Shift_L: commit_code
+    Shift_R: clear
+
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba#'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba/~'
   #initials: ';'
-  finals: '#'
+  #finals: '#'
   delimiter: " '"
   max_code_length: 4
   auto_select: true
@@ -121,22 +126,24 @@ simplifier:
   opencc_config: s2t.json
 
 punctuator:
-  import_preset: symbols
+  import_preset: flypy_symbols
 
 key_binder:
   import_preset: default
   bindings:
     - {accept: ";", send: 2, when: composing}
     - {accept: "Tab", send: Escape, when: composing}
+    #- {accept: Return, send: Escape, when: composing}
+    #- {accept: Return, send: Escape, when: has_menu}
     - {accept: Release+semicolon, send: semicolon, when: composing}
     - {accept: Release+comma, send: comma, when: composing}
 
 recognizer:
   import_preset: default
   patterns:
-    # punct: "^/([0-9]0?|[a-z]+)$"
-    # reverse_lookup: "oi[a-z]*'?$"
-    reverse_lookup: "[a-z`]*`+[a-z`]*"
+    punct: "/[a-z]*$"
+    #reverse_lookup: "[a-z`]*`+[a-z`]*"
+    reverse_lookup: "[a-z][a-z`]{1,3}"
 
 style:
   horizontal: true
